@@ -1,0 +1,264 @@
+body {
+  font-family: 'Roboto', sans-serif , monospace , lucida;
+  background: url('../img/bg.jpg') repeat scroll left top #FFF;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul , li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+input.submit {
+  padding: 5px 0 !important;
+  width: 120px !important;
+  clear: left;
+}
+div#bhu-logo img {
+  height: 63px;
+  margin-left: 1%;
+  margin-bottom: 5px;
+}
+header {
+  border-top: 4px solid #fff;
+  background: #900;
+  position: relative;
+}
+header::after {
+  content: "";
+  background: url(../img/bg.jpg);
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+.clear {
+  clear: both;
+}
+#content-wrap {
+
+}
+.content a {
+  text-transform: capitalize;
+}
+.content {
+  font-size: 16px;
+  line-height: 2em;
+  color: #333;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 3px #999;
+  margin-bottom: 20px;
+}
+.content p {
+  font-size: 14px;
+}
+#upload-article {
+  padding: 10px 3%;
+  margin: auto;
+}
+div#upload-article label {
+  width: 30%;
+  text-align: right;
+  float: left;
+  margin: 20px 1%;
+}
+div#upload-article input, textarea#id_body {
+  margin: 20px 1%;
+  float: left;
+  width: 48%;
+}
+div#upload-article input.submit {
+  width: 150px;
+  float: right;
+  clear: left;
+  margin-right: 53%;
+}
+textarea#id_body {
+  height: 100px;
+}
+.carousel-inner img {
+  max-height: 300px;
+  overflow: hidden;
+}
+#main .content:first-child {
+  display: block;
+}
+div#logo img {
+    height: 120px;
+    position: relative;
+    width: auto;
+}
+div#logo {
+  color: #fff;
+  font-weight: normal;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  padding: 10px 0;
+}
+.navbar {
+  width: 100%;
+  background: url('../img/bg.jpg') repeat scroll left top #FFF;
+  min-height: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+}
+.navbar-toggle {
+  background-color: rgba(219, 214, 214, 0.77);
+  margin: 2px 10px;
+}
+.navbar-toggle .icon-bar {
+  background-color: rgb(136, 136, 136);
+}
+.navbar-nav {
+  width: 100%;
+}
+nav ul {
+  display: table;
+  margin: 0;
+}
+nav ul li {
+  display: table-cell;
+  padding: 10px 10px;
+  font-weight: bold;
+  color: rgb(66, 46, 93);
+}
+.navbar-nav > li > a {
+  padding: 0;
+  color: #333;
+}
+#slider img {
+  width: 100%;
+  min-height: 150px;
+}
+.active , .navbar-nav > li > a:hover {
+  color: #800;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#slider-wrap {
+  background: #900;
+}
+#slider {
+  margin-bottom: 30px;
+}
+#grp-members {
+  padding: 5px;
+}
+.member-img.col-xs-5 img {
+  max-height: 175px;
+}
+.col-xs-6.row-fluid {
+  min-height: 250px;
+}
+footer {
+  border-top: 1px solid #333;
+  padding: 10px 0;
+}
+#credit {
+  font-size: 12px;
+  color: #414141;
+  font-weight: normal;
+  font-style: italic;
+}
+.brand {
+  display: none;
+}
+/*---- login page -----*/
+#login-wrap {
+  width: 60%;
+  border: 1px solid #EEE;
+  margin: 10px auto;
+  padding: 20px;
+}
+#login-wrap label , #login-wrap input {
+  width: 48%;
+  float: left;
+  margin: 10px 0px;
+  padding: 0 1%;
+  font-size: 14px;
+}
+span.helptext {
+  font-size: 10px;
+  margin: 0;
+  float: left;
+  color: #9E9E9E;
+}
+span.helptext:before {
+  content: '*';
+}
+#logo a {
+  color: #FFF;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+  width: 62%;
+  line-height: 2.3em;
+}
+#home-left-block {
+  border-right: 1px solid #333;
+  vertical-align: center;
+  text-align: center;
+}
+#home-right-block {
+  text-align: center;
+  margin: 20px 0;
+  line-height: 3em;
+}
+#home-right-block img {
+  max-width: 80%
+}
+#login-wrap form {
+  margin-top: 25px;
+}
+/*-------leftbar--------*/
+#left-bar {
+  text-align: center;
+  width: 20%;
+  margin-right: 5%;
+}
+#left-bar ul {
+  border-top: 1px solid #eee;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+#right-bar {
+  width: 75%;
+}
+@media (max-width: 768px) {
+  .col-xs-6 , .col-xs-7 , .col-xs-5 , .col-xs-8 , .col-xs-4 {
+    width: 100%;
+  }
+  .col-xs-6.row-fluid {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  #right-bar , #left-bar {
+    width: 100%;
+  }
+  div#logo {
+    font-size: 18px;
+    text-align: center;
+  } 
+  span.brand {
+    float: left;
+    display: block;
+    font-size: 18px;
+    line-height: 2em;
+    margin-left: 5%;
+  }
+}

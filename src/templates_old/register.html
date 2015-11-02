@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+	<div class="content">
+		<h4>REGISTER</h4><hr />
+		<div id="login-wrap">
+			<div class="col-xs-8">
+				<form action="/accounts/register/" method="post">{% csrf_token %}
+					{{ registration_form }}
+					<input type="submit" value="Register" class="submit btn btn-danger">
+					<div class="clear"></div>
+				</form>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</div>
+{% endblock content %}
